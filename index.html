@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Laundry Mart</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="resp.css" />
+    <script
+      src="https://kit.fontawesome.com/dd0de70807.js"
+      crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="flex">
+        <div class="logo">LOGO</div>
+        <div class="nav-links flex">
+          <a href="#">Home</a>
+          <a href="#services">Services</a>
+          <a href="#description">About Us</a>
+          <a href="#">Contect Us</a>
+        </div>
+        <div class="resp-box flex">
+          <div class="name">UserName</div>
+          <i class="fa-solid fa-bars resp"></i>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="container">
+          <div class="hero-left flex">
+            <h2 class="heading">
+              Revitalize your <br />clothes with expert <br />
+              <span>laundry services!</span>
+            </h2>
+            <p>
+              Laundry Wallah / Laundry Mart is your trusted partner for all
+              laundry needs. We offer top-notch cleaning services with care,
+              speed, and precision. Whether it's everyday clothing, delicate
+              fabrics, or urgent cleaning requirements, we ensure your garments
+              are treated with the utmost care. Our experienced team uses
+              eco-friendly detergents.
+            </p>
+            <a href="#services" class="btn flex">
+              <i class="fa-solid fa-store"></i> Book a service today!
+            </a>
+          </div>
+          <div class="hero-right flex">
+            <img
+              src="https://hi5laundromat.in/wp-content/uploads/2025/05/pngtree-home-service-house-cleaning-and-laundry-wash-png-image_15072816.png"
+              alt="Laundry Service Image" />
+          </div>
+        </div>
+      </section>
+      <section class="achievements" id="achievements">
+        <div class="container">
+          <h2 class="heading">Our Achievements</h2>
+          <div class="achievement-counter-box">
+            <div class="achievement-counter flex">
+              <h3>
+                <div class="achi-count" data-count="15">0</div>
+                +
+              </h3>
+
+              <p>Laundary Services</p>
+            </div>
+            <div class="achievement-counter flex">
+              <h3>
+                <div class="achi-count" data-count="240">0</div>
+                +
+              </h3>
+              <p>Happy Customers</p>
+            </div>
+            <div class="achievement-counter flex">
+              <h3>
+                <div class="achi-count" data-count="5">0</div>
+                +
+              </h3>
+              <p>Experience</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="services" id="services">
+        <div class="container">
+          <div class="service-list-box flex">
+            <div class="service-title">
+              <h2 class="heading">Our Services</h2>
+              <p>
+                Click on the Add To Cart Button to Add the Services To Your Cart
+              </p>
+            </div>
+            <div class="service-list">
+              <div class="service-list-row">
+                <div class="service-name">
+                  <i class="fa-solid fa-shirt"></i> Dry Cleaning
+                  <span class="service-price"> ₹200.00</span>
+                </div>
+                <div class="service-add-btn">
+                  Add Item <i class="fa-solid fa-circle-plus"></i>
+                </div>
+                <!-- <div class="service-add-btn">
+                Remove Item <i class="fa-solid fa-circle-minus"></i>
+              </div> -->
+              </div>
+              <div class="service-list-row">
+                <div class="service-name">
+                  <i class="fa-solid fa-shirt"></i>Wash & Fold
+                  <span class="service-price"> ₹100.00</span>
+                </div>
+                <div class="service-add-btn">
+                  Add Item <i class="fa-solid fa-circle-plus"></i>
+                </div>
+              </div>
+              <div class="service-list-row">
+                <div class="service-name">
+                  <i class="fa-solid fa-shirt"></i> Ironing
+                  <span class="service-price"> ₹30.00</span>
+                </div>
+                <div class="service-add-btn">
+                  Add Item <i class="fa-solid fa-circle-plus"></i>
+                </div>
+              </div>
+              <div class="service-list-row">
+                <div class="service-name">
+                  <i class="fa-solid fa-shirt"></i> Stain Removal
+                  <span class="service-price"> ₹500.00</span>
+                </div>
+                <div class="service-add-btn">
+                  Add Item <i class="fa-solid fa-circle-plus"></i>
+                </div>
+              </div>
+              <div class="service-list-row">
+                <div class="service-name">
+                  <i class="fa-solid fa-shirt"></i> DLeather & Suede Cleaning
+                  <span class="service-price"> ₹999.00</span>
+                </div>
+                <div class="service-add-btn">
+                  Add Item <i class="fa-solid fa-circle-plus"></i>
+                </div>
+              </div>
+              <div class="service-list-row">
+                <div class="service-name">
+                  <i class="fa-solid fa-shirt"></i> Wedding Dress Cleaning
+                  <span class="service-price"> ₹2800.00</span>
+                </div>
+                <div class="service-add-btn">
+                  Add Item <i class="fa-solid fa-circle-plus"></i>
+                </div>
+              </div>
+            </div>
+            <div class="service-list-footer">
+              <i class="fa-solid fa-circle-info"></i> Add item to the cart and
+              book now
+            </div>
+          </div>
+          <div class="service-cart-box flex">
+            <h3>Added Items</h3>
+            <div class="service-cart-table flex">
+              <div class="service-cart-table-row header">
+                <div class="sr-cart-table-heading">No</div>
+                <div class="sr-cart-table-heading">Service Name</div>
+                <div class="sr-cart-table-heading">Price</div>
+              </div>
+
+              <!-- Shown only when no items in cart -->
+              <div class="empty-message">No items added yet</div>
+            </div>
+
+            <div class="service-cart-total">
+              <h3>Total Amount</h3>
+              <div class="total-price">₹0.00</div>
+            </div>
+            <div class="service-person-info">
+              <h3>Book Now</h3>
+              <input
+                type="text"
+                name=""
+                id=""
+                placeholder="Full Name"
+                required />
+              <div class="flex">
+                <input
+                  type="email"
+                  name=""
+                  id=""
+                  placeholder="Email id"
+                  required />
+                <input
+                  type="number"
+                  name=""
+                  id=""
+                  maxlength="10"
+                  placeholder="Phone Number"
+                  required />
+              </div>
+            </div>
+            <div class="service-cart-btn">
+              <button class="button">Book Now</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="description" id="description">
+        <div class="container">
+          <div class="d-item">
+            <i class="fa-solid fa-soap"></i>
+            <h3>Premium Services</h3>
+            <p>
+              Get premium laundry care with expert handling, eco-friendly
+              products, and unmatched garment cleaning.
+            </p>
+          </div>
+          <div class="d-item">
+            <i class="fa-solid fa-headset"></i>
+            <h3>Quick Support</h3>
+            <p>
+              Quick support ensures instant query resolution, keeping your
+              laundry experience smooth and stress-free.
+            </p>
+          </div>
+          <div class="d-item">
+            <i class="fa-solid fa-truck"></i>
+            <h3>Hassle-Free Delivery</h3>
+            <p>
+              Enjoy hassle-free pickup and delivery with punctual schedules,
+              making laundry care easy and convenient.
+            </p>
+          </div>
+          <div class="d-item">
+            <i class="fa-solid fa-hand-holding-dollar"></i>
+            <h3>Affordable Price</h3>
+            <p>
+              Affordable laundry services with transparent pricing, quality
+              cleaning, and budget-friendly packages for everyone.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="subscribe" id="subscribe">
+        <div class="container">
+          <h2 class="sub-title heading">Subscribe to our newsletter.</h2>
+
+          <form action="#" class="sub-form" id="subForm">
+            <input type="text" id="fullName" placeholder="Full Name" required />
+            <input type="email" id="email" placeholder="Email id" required />
+            <input type="submit" class="button" value="Subscribe" />
+            <p class="success-message" id="successMsg">
+              ✅ You are subscribed!
+            </p>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="f-item flex">
+          <div class="logo">LOGO</div>
+          <div class="f-item flex">
+            <h3>About us</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+          </div>
+        </div>
+        <div class="f-item flex">
+          <h3>Important Links</h3>
+          <a href="#description"> About us </a>
+          <a href="#subscribe"> Contect us </a>
+          <a href="#"> Privacy Policy </a>
+          <a href="#"> Terms of use </a>
+          <a href="#"> Return Policy </a>
+        </div>
+        <div class="f-item flex">
+          <h3>Contect us</h3>
+          <a>mail@site.com</a>
+          <a>+91 9898767654</a>
+        </div>
+        <div class="f-item flex">
+          <h3>Follow us</h3>
+          <div class="icones flex">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>
