@@ -26,4 +26,4 @@ Users can explore services, add items to a cart, book appointments, and receive 
 ## 🛠️ Installation & Usage
 1. Clone the repository  
    ```bash
-   git clone https://github.com/your-username/laundry-services-webapp.git
+   git clone https://github.com/Vyom1912/Laundry-Services-Web-App.git
